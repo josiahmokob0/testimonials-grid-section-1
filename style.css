@@ -44,7 +44,7 @@ article.testimonial {
   opacity: 0.5;
 }
 
-h1.testimony-title {
+h2.testimony-title {
   margin-bottom: 1em;
   font-size: 1.5em;
   color: white;
@@ -68,11 +68,10 @@ p {
 
 .bg-violet {
   background-color: hsl(263, 55%, 52%);
-  background-image: url('./images/bg-pattern-quotation.svg');
+  background-image: url("./images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: top right 6.5vw;
 }
-
 
 .bg-dark-gray {
   background-color: hsl(217, 19%, 35%);
@@ -92,7 +91,7 @@ p {
 /* ---------------- */
 
 .bg-white p,
-.bg-white h1 {
+.bg-white h2 {
   color: hsl(217, 19%, 35%);
 }
 
