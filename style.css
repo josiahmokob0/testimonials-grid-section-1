@@ -97,7 +97,8 @@ p {
 
 @media (min-width: 1000px) {
   body {
-    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     height: 100vh;
     display: grid;
     place-items: center;
@@ -105,9 +106,7 @@ p {
 
   .container {
     display: grid;
-    grid-template-columns:
-      minmax(200px, 320px) minmax(200px, 320px) minmax(200px, 320px)
-      minmax(200px, 320px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "a a b e" "c d d e";
     column-gap: 3rem;
   }
